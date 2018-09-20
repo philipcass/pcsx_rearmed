@@ -1,6 +1,7 @@
-[submodule "libpicofe"]
-	path = frontend/libpicofe
-	url = git://notaz.gp2x.de/~notaz/libpicofe.git
 [submodule "warm"]
 	path = frontend/warm
 	url = git://notaz.gp2x.de/~notaz/warm.git
+[submodule "frontend/libpicofe"]
+	path = frontend/libpicofe
+	url = https://github.com/timemaster5/libpicofe.git
+	branch = saio
