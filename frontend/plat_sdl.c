@@ -61,6 +61,8 @@ const struct menu_keymap in_sdl_key_map[] =
   { SDLK_RIGHT,  PBTN_RIGHT },
   { SDLK_RETURN, PBTN_MOK },
   { SDLK_ESCAPE, PBTN_MBACK },
+  { SDLK_z, PBTN_MBACK }, // compatibility with GBZ keys
+  { SDLK_x, PBTN_MOK }, // compatibility with GBZ keys
   { SDLK_SEMICOLON,    PBTN_MA2 },
   { SDLK_QUOTE,        PBTN_MA3 },
   { SDLK_LEFTBRACKET,  PBTN_L },
